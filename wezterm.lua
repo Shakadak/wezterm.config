@@ -14,5 +14,7 @@ config.initial_rows = 28
 config.font_size = 10
 config.color_scheme = 'Solarized Light (Gogh)'
 
+config.default_prog = {'/usr/bin/zsh'}
+
 -- Finally, return the configuration to wezterm:
 return config
