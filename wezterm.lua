@@ -14,10 +14,12 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 -- or, changing the font size and color scheme.
-config.font_size = 10
+config.font_size = 12
 config.color_scheme = 'Solarized Light (Gogh)'
 
 config.default_prog = {'/usr/bin/zsh'}
+
+config.font = wezterm.font('Fira Code')
 
 -- Finally, return the configuration to wezterm:
 return config
