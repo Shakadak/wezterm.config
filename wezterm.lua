@@ -22,6 +22,7 @@ config.default_prog = {'/usr/bin/zsh'}
 config.font = wezterm.font('Fira Code')
 
 config.enable_scroll_bar = true
+config.scrollback_lines = 10000
 
 -- Finally, return the configuration to wezterm:
 return config
